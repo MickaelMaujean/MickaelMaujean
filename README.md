@@ -1,5 +1,6 @@
 - 👋 Hi, I’m @MickaelMaujean
 - 👀 I’m a tech. passionate while being a IT produt owner & scrum master certified from PMI
+# If you want to access my resume online please follow http://mickaelmaujean.github.io/DigitalCV #
 - 🌱 I’m currently learning and improving my coding skills with a deep focus on data science with python in order to master:
     - Numpy
     - Pandas
