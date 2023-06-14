@@ -30,12 +30,12 @@ img_lottie_animation = Image.open("images/yt_lottie_animation.png")
 
 # ---- HEADER SECTION ----
 with st.container():
-    st.subheader("Hi, I am Amogh :wave:")
-    st.title("A Data Analyst From India")
+    st.subheader("Hi, My name is Mickael Maujean :wave:")
+    st.title("An IT Product owner & Scrum Master - PMP certified")
     st.write(
-        "I am passionate about finding ways to use Python and BI tools to be more efficient and effective in business settings."
+        "I am passionate about tech. and leading product from the doscovery and roadmap creation to the different deliveries accross the lifecycle. ."
     )
-    st.write("[Learn More >](https://amogh9594.github.io/amoghkawleportfolio/)")
+    st.write("[Learn More >](https://mickaelmaujean.github.io/)")
 
 # ---- WHAT I DO ----
 with st.container():
@@ -52,7 +52,6 @@ with st.container():
             - Reporting Tools: Tableau, Google Data Studio, Power BI.
             """
         )
-        #st.write("[YouTube Channel >](https://youtube.com/c/CodingIsFun)")
     with right_column:
         st_lottie(lottie_coding, height=300, key="coding")
 
