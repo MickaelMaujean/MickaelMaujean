@@ -32,19 +32,21 @@ img_skills = Image.open("skills.png")
 
 # ---- HEADER SECTION ----
 with st.container():
-    st.subheader("Hi, My name is Mickael Maujean :wave:")
-    st.title("An IT Product owner & Scrum Master - PMP certified")
+    st.subheader("Hi, My name is Mickael Maujean :wave: :fr:")
+    st.title("An IT Product Owner & Scrum Master - PMP certified")
     st.write(
-        "I am passionate about tech. and leading product from the doscovery and roadmap creation to the different deliveries accross the lifecycle. ."
+        "I am passionate about tech. and leading product from the discovery and roadmap creation to the different deliveries accross the lifecycle."
     )
-    st.write("[Learn More >](https://mickaelmaujean.github.io/)")
+    st.write("[Learn More LinkedIn >](https://www.linkedin.com/in/mickael-maujean-992932bb/)")
+    st.write("[Learn More GitHub >](https://github.com/MickaelMaujean)")
+
 
 # ---- WHAT I DO ----
 with st.container():
     st.write("---")
     left_column, right_column = st.columns(2)
     with left_column:
-        st.header("What I do")
+        st.header("What I do :office_worker:")
         st.write("##")
         st.write(
             """
@@ -58,7 +60,7 @@ with st.container():
     with right_column:
         st_lottie(lottie_coding, height=300, key="coding")
 
-# ---- PROJECTS ----
+# ---- EXPERIENCE ----
 with st.container():
     st.write("---")
     st.header("My Experience")
@@ -70,7 +72,21 @@ with st.container():
         st.subheader("IT Product Owner & Scrum Master - PMP")
         st.write(
             """
-            This project uses twitter api and extracts tweets from twitter. Code-mixed text further complicates the process with it’s unstructured and incomplete information. We propose experiments with different machine learning classification algorithms with word, character and lexical features. The algorithms we experimented with are Decision tree, Long Short-Term Memory (LSTM), and Conditional Random Field (CRF).
+            The company is a SaaS developping a core platform capable of collecting mobile phone data, adding context (traffic, road conditions and wethear) and providing metrics for any driver behavior.
+            It was also ensuring development of mobile app, web dhasboards as well a web app using this platform. 
+
+            I was responsible of the following missions;
+            - Responsible of the comnpany products roadmap and discovery
+            - Creating/Maintaining backlog and elaboration of user stories
+            - Change agent
+            - APIs and Products review
+            - Ownership of the different Agile ceremonies as Scrum Master
+            - Main gateway between development and business
+            - Contact point to stakeholders
+
+            The working environement was including product management tool such as Jira, Confluence and Jira Service Management as well as tech. stack such as python, flutter, bitbucket for code repositories and version control.
+            Our services are deployed and stored in the cloud.
+
             """
         )
 with st.container():
@@ -81,55 +97,69 @@ with st.container():
         st.subheader("Technical Project Manager")
         st.write(
             """
-            MRPs are passports that can be automatically read and processed using OCR. Parsing the passport MRZ using OCR is an important part of our data extraction.
+            Part of the electrical powerdrive business unit within an Automotive Tier 1 supplier, I was in charge of the whole SW implementation, quality, testing and delivery.
+            Working at first in a pure waterfall approach including the need to drive and lead different produt management aspect such as change management, commiunication management or configuration management.
+
+            During this period I have also ensured and managed the migration to a hybrid methodology for our SW branch, creating different iterations, collecting lesson's learned and building sprints demos/reports
             """
         )
 
-# ---- SKILLS & HOBBIES----
+# ---- SKILLS----
 with st.container():
     st.write("---")
-    st.header("My Skills & Hobbies")
+    st.header("My Technical skills & knowledge")
     st.write("##")
-    skills_image, skills_column = st.columns((1, 2))
-    with skills_image:
-        st.image(img_skills)
-    with skills_column:
+    left_skills, right_skills = st.columns((1, 2))
+    with left_skills:
         st.write(
             """
-            Mobile Development:
+            :iphone: Mobile Development:
             - Flutter cross platform
             - Native iOS and Android SDK
             - Application deployment, release note and publication on stores
 
-            Software Development:
+            :computer: Software Development:
             - Backend with python knowledge and expertise
             - APIs with python and fastAPI, postman test
-            - Frontend knowledge with Javascript
+            - Data Science with Python
+            """
+        )
+    with right_skills:
+        st.write(
+            """
+            :cloud: Infra / Devops:
+            - Digital Ocean
+            - PostgreSQL and MongoDB
+            - Docker / k8s
+
+            :bar_chart: Date Science:
+            - Python libraries (numpy, pandas, matplotlib)
+            - Reporting via Jupuyter Notebook
+
             """
         )
 
+# ---- HOBBIES----
 with st.container():
     st.write("---")
     st.header("My Hobbies")
     st.write("##")
-    hobbies_image, hobbies_column = st.columns((1,2))
-    with hobbies_image:
-        st.image(img_hobbies)
-    with hobbies_column:
+    left_hobbies, right_hobbies= st.columns((1,2))
+    with left_hobbies:
         st.write(
             """
-            Football:
-            - 
-            - 
-            Chess
-            Travel:
-            - 
-            - 
-            Trail / Running:
-            - 
-            - 
+            :soccer: Football: Club member from 5 years old to 25 years old
+
+            :chess_pawn: Chess: Passionate and online players
+
+            :snow_capped_mountain: Mountain Lover: Hiking, Skiing, enjoying mountains view in all seasons
+
+            :runner: Trails : Running in wild places (forest, mountains)
+
             """
         )
+    with right_hobbies:
+        st.empty()
 
 # ---- CONTACT ----
 with st.container():
@@ -137,7 +167,6 @@ with st.container():
     st.header("Get In Touch With Me!")
     st.write("##")
 
-    # Documention: https://formsubmit.co/ !!! CHANGE EMAIL ADDRESS !!!
     contact_form = """
     <form action="https://formsubmit.co/mickael.maujean@hotmail.fr" method="POST">
         <input type="hidden" name="_captcha" value="false">
