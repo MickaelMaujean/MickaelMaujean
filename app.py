@@ -27,8 +27,8 @@ local_css("style.css")
 lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_iv4dsx3q.json")
 img_contact_form = Image.open("Electric-cars.png")
 img_lottie_animation = Image.open("POimage.jpeg")
-img_hobbies = Image.open("")
-img_skills = Image.open("")
+img_hobbies = Image.open("hobbies.png")
+img_skills = Image.open("skills.png")
 
 # ---- HEADER SECTION ----
 with st.container():
@@ -92,7 +92,7 @@ with st.container():
     st.write("##")
     skills_image, skills_column, hobbies_image, hobbies_column = st.columns((1, 2, 3, 4))
     with skills_image:
-        st.image()
+        st.image(img_skills)
     with skills_column:
         st.write(
             """
@@ -107,6 +107,8 @@ with st.container():
             - Frontend knowledge with Javascript
             """
         )
+    with hobbies_image:
+        st.image(img_hobbies)
     with hobbies_column:
         st.write(
             """
