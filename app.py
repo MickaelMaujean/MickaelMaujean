@@ -21,12 +21,14 @@ def local_css(file_name):
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 
-local_css("style/style.css")
+local_css("style.css")
 
 # ---- LOAD ASSETS ----
 lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_iv4dsx3q.json")
-img_contact_form = Image.open("images/yt_contact_form.png")
-img_lottie_animation = Image.open("images/yt_lottie_animation.png")
+img_contact_form = Image.open("Electric-cars.png")
+img_lottie_animation = Image.open("POimage.jpeg")
+img_hobbies = Image.open("")
+img_skills = Image.open("")
 
 # ---- HEADER SECTION ----
 with st.container():
@@ -46,10 +48,11 @@ with st.container():
         st.write("##")
         st.write(
             """
-            Formerly working as an Software Developer at Parekh Integrated Services Pvt.Ltd. Developed a Software for Company and done some automation project also. 1.6 years of industry experience as a Data Analyst. Experience in python for data science work. Experience of dashboard development in Power BI, Tableau and Data Studio.
-            - Programming Languages: Java, Python, R, Julia, Android, Web Development.
-            - Databases: Oracle, MySQL, SqlLite.
-            - Reporting Tools: Tableau, Google Data Studio, Power BI.
+            Formely working as Technical Project Manager within the Automotive Industry in both waterfall and hybrid management approach,
+            I am now acting as IT Prodict Owner and Scrum (PMP) in cloud based Agile environment managing products roadmap from the discovery to the delivery in the following area:
+            - Mobile Development
+            - Web site, web app
+            - Data Science
             """
         )
     with right_column:
@@ -58,31 +61,67 @@ with st.container():
 # ---- PROJECTS ----
 with st.container():
     st.write("---")
-    st.header("My Projects")
+    st.header("My Experience")
     st.write("##")
     image_column, text_column = st.columns((1, 2))
     with image_column:
         st.image(img_lottie_animation)
     with text_column:
-        st.subheader("Named Entity Recognition for Hindi-English Code-Mixed Twitter Text")
+        st.subheader("IT Product Owner & Scrum Master - PMP")
         st.write(
             """
             This project uses twitter api and extracts tweets from twitter. Code-mixed text further complicates the process with it’s unstructured and incomplete information. We propose experiments with different machine learning classification algorithms with word, character and lexical features. The algorithms we experimented with are Decision tree, Long Short-Term Memory (LSTM), and Conditional Random Field (CRF).
             """
         )
-        #st.markdown("[Watch Video...](https://youtu.be/TXSOitGoINE)")
 with st.container():
     image_column, text_column = st.columns((1, 2))
     with image_column:
         st.image(img_contact_form)
     with text_column:
-        st.subheader("Passport OCR Using Python")
+        st.subheader("Technical Project Manager")
         st.write(
             """
             MRPs are passports that can be automatically read and processed using OCR. Parsing the passport MRZ using OCR is an important part of our data extraction.
             """
         )
-        #st.markdown("[Watch Video...](https://youtu.be/FOULV9Xij_8)")
+
+# ---- SKILLS & HOBBIES----
+with st.container():
+    st.write("---")
+    st.header("My Skills & Hobbies")
+    st.write("##")
+    skills_image, skills_column, hobbies_image, hobbies_column = st.columns((1, 2, 3, 4))
+    with skills_image:
+        st.image()
+    with skills_column:
+        st.write(
+            """
+            Mobile Development:
+            - Flutter cross platform
+            - Native iOS and Android SDK
+            - Application deployment, release note and publication on stores
+
+            Software Development:
+            - Backend with python knowledge and expertise
+            - APIs with python and fastAPI, postman test
+            - Frontend knowledge with Javascript
+            """
+        )
+    with hobbies_column:
+        st.write(
+            """
+            Football:
+            - 
+            - 
+            Chess
+            Travel:
+            - 
+            - 
+            Trail / Running:
+            - 
+            - 
+            """
+        )
 
 # ---- CONTACT ----
 with st.container():
@@ -92,7 +131,7 @@ with st.container():
 
     # Documention: https://formsubmit.co/ !!! CHANGE EMAIL ADDRESS !!!
     contact_form = """
-    <form action="https://formsubmit.co/rkawle23@gmail.com" method="POST">
+    <form action="https://formsubmit.co/mickael.maujean@hotmail.fr" method="POST">
         <input type="hidden" name="_captcha" value="false">
         <input type="text" name="name" placeholder="Your name" required>
         <input type="email" name="email" placeholder="Your email" required>
