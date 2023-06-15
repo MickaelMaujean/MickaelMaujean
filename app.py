@@ -90,7 +90,7 @@ with st.container():
     st.write("---")
     st.header("My Skills & Hobbies")
     st.write("##")
-    skills_image, skills_column, hobbies_image, hobbies_column = st.columns((1, 2, 3, 4))
+    skills_image, skills_column = st.columns((1, 2))
     with skills_image:
         st.image(img_skills)
     with skills_column:
@@ -107,6 +107,12 @@ with st.container():
             - Frontend knowledge with Javascript
             """
         )
+
+with st.container():
+    st.write("---")
+    st.header("My Hobbies")
+    st.write("##")
+    hobbies_image, hobbies_column = st.columns((1,2))
     with hobbies_image:
         st.image(img_hobbies)
     with hobbies_column:
