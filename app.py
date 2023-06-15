@@ -4,7 +4,7 @@ from streamlit_lottie import st_lottie
 from PIL import Image
 
 
-st.set_page_config(page_title="Personal Webpage", page_icon=":tada:", layout="wide")
+st.set_page_config(page_title="Mickael Maujean CV", page_icon=":tada:", layout="wide")
 
 
 def load_lottieurl(url):
