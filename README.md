@@ -10,7 +10,8 @@
     - Web Scrapping
     - APIs
     - Machine Learning
-My epo being public, you have the possibility to review the code I've made to create a simple resume online.
+      
+My repos being public, you have the possibility to review the code I've made to create a simple resume online.
 
 - 💞️ I’m looking to collaborate on data science techniques as well as using on the long term AI for product & project management in my daily business
 
