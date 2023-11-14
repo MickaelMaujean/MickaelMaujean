@@ -16,6 +16,7 @@
       description: This portfolio was meant to pratise my frontend skills to introduce myself as dev passionate and sport lover
 
     - Machine Learning: I'm currently practising machine learning model development and working on a model to predict houses prices in my village (on going !)
+    - MickaelMaujean repo contains a old deprecated python app using streamlit created to display online resume
       
 
 - 💞️ I’m looking to collaborate on data science techniques as well as using on the long term AI for product & project management in my daily business
