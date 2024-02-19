@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @MickaelMaujean
-- 👀 I’m IT produt owner certified from PMI, a web & AI developer passionate and a Moutain lover
+- 👀 I’m IT produt manager certified from PMI, a web & AI developer passionate and a Moutain lover
 
 
 - 🌱 You can access code source of below app I have built
