@@ -1,5 +1,6 @@
 <h1>👋 Hi, I’m @MickaelMaujean</h1>
-- 👀 I’m IT Product Manager certified from PMI, a web & AI developer passionate and a Moutain lover
+
+👀 I’m a Sr. Product Manager, a web & AI developer passionate and a Moutain lover. I trust and use AI in my daily work powering up discovery phase with prompting collaboration, lovable prototype and cursor early development with eng and design.
 
 
 - 🌱 You can access code source of below app I have built
@@ -7,6 +8,10 @@
       stack: Deployed in production using Vercel/Railway/NeonDB built with a python fastAPI backend, reactJS frontend, postgres database and JWT authentication
       description: First full stack web app deployed in prod to create a game allowing people to vote and estimate key value (weight, size, birthday) of my second kid
 
+    - PharmaCycle :
+      Currently founding and building a MedTech product support end to end management of personal drug from individual tracking and
+      management to proper expired drug return to pharmacy
+      
     - Social Media:
       stack: Full backend project with `python fastAPI` and `postgres` database including JWT authentication
       description: project to practise and learn backend mimicking a social media backend with users and posts management
@@ -19,7 +24,5 @@
       
     - MickaelMaujean repo contains a old deprecated python app using streamlit created to display online resume
       
-
-- 💞️ I’m looking to collaborate on data science techniques as well as using on the long term AI for product & project management in my daily business
 
 - 📫 How to reach me - Check out my Portfolio ! [https://mickaelmaujeanportfolio.vercel.app]
