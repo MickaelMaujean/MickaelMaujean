@@ -25,4 +25,4 @@
     - MickaelMaujean repo contains a old deprecated python app using streamlit created to display online resume
       
 
-- 📫 How to reach me - Check out my Portfolio ! [https://mickaelmaujeanportfolio.vercel.app]
+- 📫 How to reach me - Check out my Portfolio built with Lovable [https://mickaelmaujean-resume.lovable.app/] 
