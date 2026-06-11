@@ -1,28 +1,101 @@
-<h1>👋 Hi, I’m @MickaelMaujean</h1>
+# 👋 Hi, I'm Mickael Maujean
 
-👀 I’m a Sr. Product Manager, a web & AI developer passionate and a Moutain lover. I trust and use AI in my daily work powering up discovery phase with prompting collaboration, lovable prototype and cursor early development with eng and design.
+## Senior Product Manager | AI Product Enthusiast | Builder
 
+I'm a Senior Product Manager passionate about turning customer problems into impactful products. My expertise spans product strategy, discovery, roadmap development, stakeholder alignment, and data-driven decision making.
 
-- 🌱 You can access code source of below app I have built
-    - Babygame : 
-      stack: Deployed in production using Vercel/Railway/NeonDB built with a python fastAPI backend, reactJS frontend, postgres database and JWT authentication
-      description: First full stack web app deployed in prod to create a game allowing people to vote and estimate key value (weight, size, birthday) of my second kid
+What makes me different is my strong technical background. I'm comfortable collaborating deeply with engineering teams, building prototypes myself, and leveraging modern AI development tools to accelerate product discovery and validation.
 
-    - PharmaCycle :
-      Currently founding and building a MedTech product support end to end management of personal drug from individual tracking and
-      management to proper expired drug return to pharmacy
-      
-    - Social Media:
-      stack: Full backend project with `python fastAPI` and `postgres` database including JWT authentication
-      description: project to practise and learn backend mimicking a social media backend with users and posts management
+I use AI daily across product management activities from customer discovery and insight generation to rapid prototyping, analytics, and experimentation. My goal is to bridge business, user needs, and technology to deliver products that create real value.
 
-    - Portfolio:
-      stack: More advanced `reactJS` frontend embedding public API from Strava and chess.com as well as preparing an AI bot powered by LLMs
-      description: This portfolio was meant to practise my frontend skills to introduce myself as dev passionate and sport lover
+Outside of work, you'll find me exploring the mountains, training for sports challenges, or building side projects that help me stay hands-on with emerging technologies.
 
-    - AI : On my way to become AI Product Manager using AI to support my daily business, product management and product analytics. My AI journey does not stop to using only no-code AI tool, I am developping software application including `LLMs` (thank you hugging face 🤗) 
-      
-    - MickaelMaujean repo contains a old deprecated python app using streamlit created to display online resume
-      
+## 🚀 Projects
 
-- 📫 How to reach me - Check out my Portfolio built with Lovable [https://mickaelmaujean.lovable.app/] 
+### PharmaCycle (Founder & Product Builder)
+
+A MedTech product focused on helping individuals manage medications throughout their lifecycle from inventory tracking and treatment management to responsible disposal of expired drugs through pharmacy return programs (available in France only)
+
+**My role:**
+
+* Product strategy and vision
+* User discovery and validation
+* End-to-end product development
+* AI-assisted product design and prototyping
+
+---
+
+### BabyGame
+
+My first production-grade full-stack application designed around a fun family challenge: allowing friends and family to predict key metrics of my second child (weight, size, birth date) and compete through community voting.
+
+**Stack:** FastAPI, React, PostgreSQL, JWT Authentication, Vercel, Railway, NeonDB
+
+**Product focus:**
+
+* End-to-end product design
+* User engagement mechanics
+* Production deployment and operations
+
+---
+
+### Social Media API
+
+A backend-focused project created to deepen my understanding of scalable application architecture and API design.
+
+**Stack:** FastAPI, PostgreSQL, JWT Authentication
+
+**Key learnings:**
+
+* Authentication and authorization
+* API architecture
+* Database design
+* Backend best practices
+
+---
+
+### Portfolio Website
+
+A modern React application integrating external APIs and serving as a playground for AI-powered experiences.
+
+**Features:**
+
+* Strava integration
+* Chess.com integration
+* Future LLM-powered assistant
+
+**Goal:**
+Explore frontend development, API integrations, and AI product experiences.
+
+---
+
+### Chatbot
+
+A simple AI personal assistant for recruiter willing to ask details about my profile
+
+**Features:**
+
+* Google AI and Gemini Flash integration
+* FastAPI backend deployed with FastAPIcloud
+
+  ---
+
+## 🤖 AI & Product Management
+
+I'm actively growing toward AI Product Management by combining:
+
+* Product strategy and customer-centric thinking
+* AI-powered workflows and analytics
+* Prompt engineering
+* Rapid prototyping with tools such as Lovable and Cursor
+* LLM application development using open-source ecosystems
+
+I believe the future belongs to Product Managers who can effectively bridge customer needs, business outcomes, and AI capabilities.
+
+## 📫 Connect with me
+
+Check out my portfolio:
+https://mickaelmaujean.lovable.app/
+
+Feel free to explore my repositories, contribute, or reach out to discuss Product Management, AI or technology.
+
